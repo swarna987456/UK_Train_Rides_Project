@@ -12,5 +12,5 @@ National Rail, a company that provides business services to passenger train oper
 Visit the https://trainridesproject.streamlit.app/ to see the dashboard and visuals
 dataset link: dataset link: https://mavenanalytics.io/challenges/maven-rail-challenge/32
 
-All the Analysis is done by using Python programming
+Analysis is done by using Python programming
 tools used: Jupyter notebook, Plotly for creating plots, Streamlit for the application
