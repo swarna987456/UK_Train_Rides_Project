@@ -1,0 +1,20 @@
+dataset link: https://mavenanalytics.io/challenges/maven-rail-challenge/32
+
+Mock train ticket data for National Rail in the UK
+
+
+File type : CSV
+Data structure: Single table
+# of records: 31653
+# of fields:18
+
+
+Challenge Objective
+For the Maven Rail Challenge, you'll play the role of a BI Developer for National Rail, a company that provides business services to passenger train operators in England, Scotland, and Wales.
+
+You've been asked by your manager to create an exploratory dashboard that helps them:
+
+Identify the most popular routes
+Determine peak travel times
+Analyze revenue from different ticket types & classes
+Diagnose on-time performance and contributing factors
