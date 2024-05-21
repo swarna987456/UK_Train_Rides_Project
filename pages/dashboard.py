@@ -4,7 +4,7 @@ import plotly.io as pio
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-outputs = pickle.load(open('outputs.pkl', 'rb'))
+outputs = pickle.load(open('../outputs.pkl', 'rb'))
 
 # Defining the custom template
 custom_template = {
