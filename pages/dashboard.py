@@ -82,5 +82,3 @@ with col2:
     st.plotly_chart(fig7, use_container_width=True)
 
 st.plotly_chart(fig8, use_container_width=True)
-
-    
