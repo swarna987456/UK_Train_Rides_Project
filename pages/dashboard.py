@@ -38,13 +38,13 @@ fig3.update_layout(yaxis={'dtick': 1})
 
 col1, col2,col3 = st.columns(3)
 with col1:
-    st.plotly_chart(fig1, use_container_width=True)
+    st.plotly_chart(fig1, use_container_width=False)
 
 with col2:
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig2, use_container_width=False)
 
 with col3:
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig3, use_container_width=False)
 
 
 
