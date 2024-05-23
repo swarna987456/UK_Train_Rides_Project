@@ -98,9 +98,9 @@ if selected=="Revenue by Ticket Class & Type":
 if selected=="On-time performance":  
     st.title(f"Diagnose On-Time Performance And Contributing Factors")
 
-    st.markdown('<div style="background-color: #EDEDED;font-weight: bold">1. Most of the trains are On-Time with 86.82 percent only 7.24 percent are delayed and rest of the percentage are from cancelled trains</div>', unsafe_allow_html=True)
-    st.markdown('<div style="background-color: #EDEDED;font-weight: bold">2. Contributing factors: Weather is the primary factor for the delays </div>', unsafe_allow_html=True)
-    st.markdown('<div style="background-color: #EDEDED;font-weight: bold">3. London Euston - Liverpool Lime Street is havings highest train delays</div>', unsafe_allow_html=True)
+    st.markdown('<div style="background-color: #EDEDED;font-weight: bold">1. Most of the trains are On-Time with 90.67 percent only 5.34 percent are delayed and rest of the percentage are from cancelled trains</div>', unsafe_allow_html=True)
+    st.markdown('<div style="background-color: #EDEDED;font-weight: bold">2. Contributing factors: Techinical Issue and Signal Failures are the top reasons for delay of the trains </div>', unsafe_allow_html=True)
+    st.markdown('<div style="background-color: #EDEDED;font-weight: bold">3. Liverpool Lime Street to Manchester Piccadilly and London Euston to Liverpool Lime Street routes are havings highest train delays delays</div>', unsafe_allow_html=True)
 
     
     fig1 = px.pie(outputs['On-Time Performance'].reset_index(), values='Journey_Status', names='index', title='On-Time Performance',\
